@@ -4,12 +4,15 @@
   "description": "Pizzahut auth service",
   "main": "index.js",
   "scripts": {
-    "dev": "node src/server.js"
+    "dev": "node src/server.js",
+    "format:fix": "prettier . --write",
+    "format:check": "prettier . --check"
   },
   "author": "Sandeep Mukherjee",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^22.8.1",
+    "prettier": "3.3.3",
     "typescript": "^5.6.3"
   }
 }
