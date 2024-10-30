@@ -1,5 +1,3 @@
-function login(username: string): string {
-  return username;
-}
+import { Config } from './config';
 
-login('sandeepmukherjee');
+console.log(Config.PORT);
